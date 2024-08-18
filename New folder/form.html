@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Altschool Form" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Form</title>
+</head>
+<body>
+    <div>
+        <h1>Alt-
+            School</h1>
+        <p>Already an Altschooler?Sign in!</p>
+    </div>
+    <div>
+        <table>
+    <form action="/signup" method="post">
+        <div><p>
+          <label><h3>Signup</h3></label>
+          <h4>Take the next steps to sign up to Altschool</h4>
+        </p>
+         <p> <tr>First name</tr>
+         <tr> <input type="text" name="first_name" required></tr>
+         <tr> <label>Last name</label></tr>
+         <tr> <input type="text" name="last_name" required></tr>
+         <tr aria-rowspan="2"></tr>
+         <!---Internal Style-->
+         <style>
+          P{
+              color: red;
+              font-size: 20px;
+          }
+      </style>
+        </p>
+        <p><tr>Gender</tr>
+          <select>
+            <option>Female</option>
+            <option>Male</option>
+          </select>
+        <tr>Date of Birth</tr>
+          <input type="date">
+        <p>
+          <tr><label>Email</label></tr>
+         <tr><input type="email" name="email" required></tr>
+         <tr> <label>Phone number</label></tr>
+          <tr><input type="tel" name="phone" required></tr>
+          <tr aria-rowspan="2"></tr>
+        </p>
+        <p>
+          <tr><label>Country</label></tr>
+          <select>
+            <option>China</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>Indonesia</option>
+            <option>Brazil</option>
+            <option>Nigeria</option>
+            <option>Kenya</option></select>
+            <tr aria-rowspan="2"></tr>
+          </p>
+          <p>
+            <tr>
+            <label>State of Residence</label>
+            <select id="state" name-state>
+                <option value="al">Alabama</option>
+                <option value="la">lagos</option>
+                <option value="Na">Nairobi</option>
+                <option value="Be">Beijing</option>
+                <option value="Sa">SaoPaulo</option>
+                <option value="Mu">Mumbai</option>
+                <option value="ND">Newdelhi</option></select>
+            <label><tr>How did you Hear about us</tr></label>
+            <select id="source" name="source">
+                <option value="fa">Facebook</option>
+                <option value="Li">Linkedin</option>
+                <option value="tw">Twitter</option>
+                <option value="In">Instagram</option>
+                <option value="Yt">Youtube</option>
+                <option value=ot>other</option>
+            </select>
+          </p>
+            <p>
+            <tr><label>Password</label></tr>
+            <tr><input type="password" value="password"></tr>
+            <tr><label>Confirm password</label></tr>
+            <tr><input type="Password" Value="Password"></tr> 
+            </p>
+        <p>
+          <tr><label>
+            <input type="checkbox" value="terms">
+            By clicking continue,I agree to the <a href="/terms">Terms of use</a>
+            And acknowledge that I have read the <a href="Privacy Policy">Privacy Policy>
+            <input type="checkbox" value="Terms">
+            </a>
+          </label>
+        </tr>
+        </p>
+        <p>
+          <button>Submit</button>
+        </p>
+      </form> 
+    </table> 
+</body>
+</html>
