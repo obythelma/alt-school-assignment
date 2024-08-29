@@ -8,6 +8,11 @@ div.container{
     margin: 2em;
    
   }
+  .form2{
+    margin: 20px 20px;
+    gap: 20px;
+
+  }
 p{
     color: black;
     font-size: 15px;
@@ -15,4 +20,10 @@ p{
 
 #top{
     color: red;
+}
+table{
+    width: 100%;
+    border-spacing: 20px;
+    margin: 10px 10px;
+    padding: 10px 10px;
 }
